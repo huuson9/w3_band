@@ -1,0 +1,148 @@
+/* PC */ 
+/* @media (min-width: 1024px) {
+
+} */
+/* Tablet */
+/* @media (min-width: 720px) and (max-width: 1024px) {
+} */
+
+/* Mobile */
+/* @media (max-width: 720px) {
+    .list > li {
+        display: inline-block; /*Trên 1 hàng 
+        position: relative; 
+   }
+} */
+
+/* PC && Tablet */
+@media (min-width: 600px)
+{
+    .list > li {
+        display: inline-block;
+        position: relative; 
+    }
+    .header .search_button {
+        display: inline-block;
+        line-height: 46px;
+        padding: 0px 24px;
+        position: absolute;
+        right: 0px;
+    }
+    .menu.js-menu {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .header{
+        overflow: hidden;
+        /* position: relative; */
+    }
+    .list {
+        display: block;
+    }
+    .list > li {
+        display: block;
+        position: relative; 
+    }
+    .list .list-home {
+        display: inline-block;
+    }
+    .list .list-home-btn {
+        display: inline-block;
+    }
+    .list .list2 {
+        position: initial;
+        /* background-color: transparent; */
+        /* opacity: 0.6; */
+        background-color:#333;
+        padding: 5px 40px;
+    }
+    .list .list2 a {
+        color: #fff;
+        padding: 8px 16px;
+        line-height: 36px; /*Đội dài từng dòng*/
+        text-decoration: none;
+
+    }
+   .header .search_button {
+       display: none;
+    }
+   .header .menu {
+        /* display: inline-block; */
+        line-height: 46px;
+        padding: 0.15px 24px;
+        position: absolute;
+        right: 0px;
+        /* top: 0.5px; */
+        /* color: #000; */
+        /* background-color: #ccc; */
+        color: white;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header .menu:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+    .slider .text-content1 {
+        display: none;
+    }
+    .member-list .member {
+        float: left; /* Kéo sang bên trái*/
+        width: 100%;
+        text-align: center;
+    }
+    .member-list .member .member-name {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .member-list .member .avatar {
+        width: 60%;
+        margin: 16px 0;
+        border-radius: 4px;
+    }
+    .place-ticket {
+        padding-top: 16px;
+        margin: 0 -8px;
+        padding-bottom: 48px;
+    }
+    .place-ticket .place {
+        /* background-color: white; */
+        padding: 0px 8px;  
+        width: 100%;  
+        float: left;
+        margin-top: 16px;
+    }
+    .place-ticket .place .place-infor .buy-ticket {
+        width: 100%;
+    }
+    .content-section .contact .contact-address {
+        font-size: 18px;
+        line-height: 27px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .content-section .contact .contact-form {  
+        position: initial;
+        top: 32px;
+        width: 100%;
+    }
+    .content-section .contact .contact-form .contact-form1 {
+        padding-right: 0;
+        width: 100%;
+        float: left;
+        
+    }
+    .content-section .contact .contact-form .contact-form15 {
+        padding-left: 0;
+        width: 100%;
+        float: left;
+    }
+    .content-section .contact .contact-form .a {
+        width: 100%;
+    }
+}
